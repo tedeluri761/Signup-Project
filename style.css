@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgba(255, 121, 121, 1);
+background-image: url(assets/images/bg-intro-mobile.png);
+background-repeat: no-repeat;
+font-family: 'Poppins', sans-serif;
+padding: 0 2.4rem 5rem;
+}
+
+.similar {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    text-align: center;
+}
+
+header {
+    margin-top: 8rem;
+display: flex;
+flex-direction: column;
+gap: 1.6rem;
+}
+
+h1 {
+font-size: 2.8rem;
+font-weight: 700;
+line-height: 3.6rem;
+letter-spacing: -0.2916666865348816px;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+}
+
+header p {
+color: rgba(255, 255, 255, 1);
+font-weight: 500;
+
+}
+
+main {
+    background: rgba(94, 84, 164, 1);
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.1469);
+border-radius: 1rem;
+margin-top: 6.4rem;
+}
+
+main p {
+color: rgba(255, 255, 255, 1);
+padding: 1.8rem 6.6rem;
+font-weight: 700;
+}
+
+.colorSpan {
+    font-weight: 400;
+}
+
+footer {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.1469);
+padding: 2.4rem;
+margin-top: 2.4rem;
+border-radius: 1rem;
+}
+
+.nameEmailPassword {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.border {
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(222, 222, 222, 1);
+    border-radius: 1rem;
+    padding: 1.5rem 0 1.5rem 1.941rem;
+    cursor: pointer;
+}
+
+
+.TrialCard{
+    margin-top: 1.6rem;
+    background: rgba(56, 204, 139, 1);
+    box-shadow: 0px -4px 0px 0px rgba(0, 0, 0, 0.0909) inset;
+    border-radius: 1rem;
+border: none;
+cursor: pointer;
+}
+
+
+.TrialCard p {
+font-size: 1.5rem;
+font-weight: 600;
+line-height: 2.6rem;
+letter-spacing: 0.1rem;
+text-align: center;
+color: rgba(255, 255, 255, 1);
+padding: 1.5rem 0 1.5rem 1.941rem;
+}
+
+.lastParagraph{
+    margin-top: 0.8rem;
+font-size: 1.1rem;
+font-weight: 500;
+line-height: 2.1rem;
+text-align: center;
+color: rgba(186, 183, 212, 1);
+
+}
+
+.spanTag{
+font-size: 1.1rem;
+font-weight: 700;
+line-height: 2.1rem;
+text-align: center;
+color: red;
+}
+
+
+.similar2{
+    display: none;
+font-size: 1.1rem;
+font-style: italic;
+font-weight: 500;
+line-height: 1.65rem;
+text-align: right;
+color: rgba(255, 121, 121, 1);
+}
+.placeholder-red::placeholder {
+    color: red;           /* Change to red */
+}
+
+.successfully{
+    margin-top: 10rem;
+    display: none;
+font-size: 2.8rem;
+font-weight: 700;
+line-height: 3.6rem;
+letter-spacing: -0.2916666865348816px;
+text-align: center;
+color: wheat;
+}
